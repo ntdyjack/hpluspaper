@@ -12,6 +12,8 @@ m <- 500
 Nd <- (n*(n-1))/2
 Nz <- (Nd*(Nd-1))/2
 
+pct_samps <- c(.000005,0.00005,.0005,.005,.05,.125) 
+
 #datasets
 #no difference 50:50, no difference 10:90
 #some overlap 50:50, some overlap 10:90
